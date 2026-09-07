@@ -20,7 +20,7 @@ Task
 
 (a) What does the buggy version actually return for [1, 2, 3, 4, 5, 6, 8], and why?
 
-    Answer: 3, as there are 3 odd numbers. The n % 2 == 1 is wrong, it actually checks for odd number as the remainder of n divide by 2 equal 1 is for odd number.
+    Answer: Return 3, as there are 3 odd numbers. The n % 2 == 1 is wrong, it actually checks for odd number as the remainder of n divide by 2 equal 1 is for odd number.
 
 (b) Fix the bug. Write the corrected function below.
     (A one-character change is enough, but you must understand why.)
